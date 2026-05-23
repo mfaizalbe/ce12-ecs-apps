@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Docker
+*.tar
+
+# AWS
+.aws/
+
+# Terraform (if accidentally used in app repo)
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# GitHub local workflow overrides
+.github/*.local
